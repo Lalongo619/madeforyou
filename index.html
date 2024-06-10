@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tienda de Ropa</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>MadeForYou</h1>
+        <nav>
+            <ul>
+                <li><a href="#mujeres">Mujeres</a></li>
+                <li><a href="#niños">Niños</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+
+    <section id="productos">
+        <h2>Productos</h2>
+        <div class="producto" data-id="1">
+            <img src="descarga.jpeg" alt="blusa">
+            <h3>blusa</h3>
+            <p>$20.00</p>
+            <button class="add-to-cart">Agregar al Carrito</button>
+        </div>
+        <div class="producto" data-id="2">
+            <img src="2.jpeg" alt="shorts">
+            <h3>shorts</h3>
+            <p>$15.00</p>
+            <button class="add-to-cart">Agregar al Carrito</button>
+        </div>
+        <div class="producto" data-id="3">
+            <img src="3.jpeg" alt="sueter">
+            <h3>sueter</h3>
+            <p>$50.00</p>
+            <button class="add-to-cart">Agregar al Carrito</button>
+        </div>
+        <div class="producto" data-id="4">
+            <img src="4.jpeg" alt="vestido">
+            <h3>vestido</h3>
+            <p>$40.00</p>
+            <button class="add-to-cart">Agregar al Carrito</button>
+        </div>
+        <div class="producto" data-id="5">
+            <img src="5.jpeg" alt="pats">
+            <h3>pats</h3> 
+            <p>$20.00</p>
+            <button class="add-to-cart">Agregar al Carrito</button>
+        </div>
+        <div class="producto" data-id="6">
+            <img src="6.jpeg" alt="sandalias">
+            <h3>sandalias</h3> 
+            <p>$20.00</p>
+            <button class="add-to-cart">Agregar al Carrito</button>
+        </div>
+        
+    </section>
+
+    <section id="carrito">
+        <h2>Carrito de Compras</h2>
+        <ul id="lista-carrito">
+            <!-- Los productos añadidos aparecerán aquí -->
+        </ul>
+        <button id="comprar">Comprar</button>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
